@@ -50,7 +50,7 @@ public class Lab2 {
             }
         }
 
-        ps.printf("%-25s%s\n", "Artist", "Occurence count");
+        ps.printf("%-25s%s\n", "Artist", "Occurence count"); //prints to output file
         for (int i = 0; i < currentIndex; i++) {
             ps.printf("%-25s%s\n", artists[i], artistsCount[i]);
         }
